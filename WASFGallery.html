@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Are Scottish Football Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://kit.fontawesome.com/ad4eb018cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="headline">
+        <h1>We Are <span>Scottish</span> Football</h1>
+    </div>
+    <div class="full-img" id="fullImgBox">
+        
+        <img src="" id="fullImg">
+        
+        <span onclick="closeFullImg()"><i class="fa-solid fa-square-xmark"></i></span>
+    </div>
+            
+        
+    </div>
+    <div class="img-gallery">
+        <img src="WASFImages/2.RootsandWingsScaled.JPG" onclick="openFullImg('WASFImages/2.RootsandWings.JPG')"> 
+        <img src="WASFImages/25022889-14FB-43BA-9B66-E4A9DDDB060DScaled.JPEG" onclick="openFullImg('WASFImages/25022889-14FB-43BA-9B66-E4A9DDDB060D.JPEG')">
+        <img src="WASFImages/53553813849_8341fa590b_oScaled.jpg" onclick="openFullImg('WASFImages/53553813849_8341fa590b_o.jpg')">
+        <img src="WASFImages/6.ForGoodOption2Scaled.JPG" onclick="openFullImg('WASFImages/6.ForGoodOption2.JPG')">
+        <img src="WASFImages/8DB8E550-3B62-4D6E-A0D7-884BE5840607Scaled.JPEG" onclick="openFullImg('WASFImages/8DB8E550-3B62-4D6E-A0D7-884BE5840607.JPEG')">
+        <img src="WASFImages/953676C7-FD2B-43EE-84D4-657D81DC6473Scaled.JPEG" onclick="openFullImg('WASFImages/953676C7-FD2B-43EE-84D4-657D81DC6473.JPEG')">
+        <img src="WASFImages/FWFBWScaled.jpeg" onclick="openFullImg('WASFImages/FWFBW.jpeg')">
+        <img src="WASFImages/GermanyScaled.jpeg" onclick="openFullImg('WASFImages/Germany.jpeg')">
+        <img src="WASFImages/IMG_4845Scaled.JPEG" onclick="openFullImg('WASFImages/IMG_4845.JPEG')">
+    </div>
+
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display ="flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display ="none";
+    }
+</script>
+</body>
+</html>

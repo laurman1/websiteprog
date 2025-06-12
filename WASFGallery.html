@@ -32,18 +32,33 @@
     </div>
 
 <script>
-    
+
     var fullImgBox = document.getElementById("fullImgBox");
     var fullImg = document.getElementById("fullImg");
 
     function openFullImg(pic){
         fullImgBox.style.display ="flex";
         fullImg.src = pic;
+        currentImgIndex = Array.from(galleryImages).findIndex(img => img.src.includes(pic));
     }
 
     function closeFullImg(){
         fullImgBox.style.display ="none";
     }
+
+    document.addEventListener('keydown', function(event) {
+    if (fullImgBox.style.display === "flex") {
+        if (event.key === 'Escape') {
+            closeFullImg();
+        }
+        }
+});
 </script>
+
+<script>
+    
+
+</script>
+
 </body>
 </html>

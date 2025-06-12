@@ -11,13 +11,6 @@ body{
         
         );
 }
-/*body.mh{
-    background: linear-gradient(
-        #ffaa00 7%,
-        #fff 12%, 
-        #0d182b 50%
-        );
-}*/
 body.mh{
     background: linear-gradient(
         
@@ -41,13 +34,12 @@ body.mh{
     border-color: white;
 }
 .img-gallery img:hover{
-    transform: scale(1.05) translateY(0px);
+    transform: scale(0.9) translateY(0px);
     border-radius: 15px;
     box-shadow: 0 32px 75px rgba(68,77,136,0.8);
-    border-width: 5px;
-    border-style:ridge;
+    /*border-width: 5px;
+    border-style:ridge;*/
     
-
 }
 
 .full-img.mh{

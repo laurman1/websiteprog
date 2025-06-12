@@ -356,6 +356,12 @@ nav ul li a:hover{
     font-size: 12px;
     transition: height 0.5s;
 }
+.layer.mh{
+    background: linear-gradient(
+        #ffaa007e,
+        #fff
+    );
+}
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;

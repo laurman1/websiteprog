@@ -37,8 +37,8 @@ body.mh{
     transform: scale(0.9) translateY(0px);
     border-radius: 15px;
     box-shadow: 0 32px 75px rgba(68,77,136,0.8);
-    /*border-width: 5px;
-    border-style:ridge;*/
+    /*border-width: 5px;*/
+    border-style:inset;
     
 }
 

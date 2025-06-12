@@ -73,7 +73,7 @@ body{
     background-image: url(Campbellimages/2.RootsandWings.JPG);
     background-size:cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment:fixed;
     opacity: 0.9; /* adjust this to your preference */
     z-index: -1; /*put it behind the content */ 
 }
@@ -490,5 +490,6 @@ form .btn2{
 }
 /*---------------- css for small screen -------------*/
 @media only screen and (max-width: 600px){
+
 
 }
